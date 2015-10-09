@@ -30,7 +30,7 @@ gulp.task('play', ['ts2js'], function () {
     var serveStatic = require('serve-static');
     var open = require('open');
 
-    var port = 9000, app;
+    var port = 9005, app;
 
     gulp.watch(PATHS.src, ['ts2js']);
 
