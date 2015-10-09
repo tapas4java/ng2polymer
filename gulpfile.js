@@ -12,14 +12,9 @@ gulp.task('clean', function (done) {
 
 gulp.task('ts2js', function () {
     var typescript = require('gulp-typescript');
+    var tsConfig = typescript.createProject('tsconfig.json');
     var tsResult = gulp.src([PATHS.src, PATHS.typings])
-        .pipe(typescript({
-            noImplicitAny: true,
-            module: 'system',
-            target: 'ES5',
-            emitDecoratorMetadata: true,
-            experimentalDecorators: true
-        }));
+        .pipe(typescript(tsConfig));
 
     return tsResult.js.pipe(gulp.dest('dist'));
 });
@@ -30,7 +25,7 @@ gulp.task('play', ['ts2js'], function () {
     var serveStatic = require('serve-static');
     var open = require('open');
 
-    var port = 9005, app;
+    var port = 9009, app;
 
     gulp.watch(PATHS.src, ['ts2js']);
 
