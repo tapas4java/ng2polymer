@@ -9,7 +9,7 @@ import { Component, View, bootstrap } from 'angular2/angular2';
         Say hello to: <input [value]="name" (input)="name = $event.target.value">
     `
 })
-export class HelloApp {
+class HelloApp {
     name: string = 'World';
 }
 
