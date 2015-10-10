@@ -1,7 +1,9 @@
-import {Component, bootstrap} from 'angular2/angular2';
+import { Component, View, bootstrap } from 'angular2/angular2';
 
 @Component({
-    selector: 'hello-app',
+    selector: 'hello-app'
+})
+@View({
     template: `
         <h1>Hello, {{name}}!</h1>
         Say hello to: <input [value]="name" (input)="name = $event.target.value">
