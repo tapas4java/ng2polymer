@@ -1,6 +1,6 @@
 # ng2start
 
-A minimal [Angular2](https://angular.io/) playgstarter using [TypeScript](http://www.typescriptlang.org/) and [SystemJS loader](https://github.com/systemjs/systemjs) with SASS
+A minimal [Angular2](https://angular.io/) starter using [TypeScript](http://www.typescriptlang.org/) and [SystemJS loader](https://github.com/systemjs/systemjs) with [SASS](http://sass-lang.com)
 
 ## Install
 
