@@ -1,10 +1,10 @@
 {
-  "name": "ng2todo",
-  "version": "1.0.0",
-  "description": "A Angular2 Todo App",
+  "name": "ng2start",
+  "version": "0.0.1",
+  "description": "Angular2 Typescript Starter with live reload",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tapas4java/ng2todo.git"
+    "url": "https://github.com/tapas4java/ng2start.git"
   },
   "devDependencies": {
     "browser-sync": "^2.9.11",

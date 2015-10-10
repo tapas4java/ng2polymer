@@ -1,6 +1,6 @@
-# ng2TodoApp
+# ng2start
 
-A minimal [Angular2](https://angular.io/) playground using [TypeScript](http://www.typescriptlang.org/) and [SystemJS loader](https://github.com/systemjs/systemjs)
+A minimal [Angular2](https://angular.io/) playgstarter using [TypeScript](http://www.typescriptlang.org/) and [SystemJS loader](https://github.com/systemjs/systemjs) with SASS
 
 ## Install
 
@@ -13,4 +13,6 @@ Clone this repo and execute in your favourite shell:
 
 After completing installation type in your favourite shell:
 
-* `gulp serve` or just `gulp` to run your app in a new browser window. App files are observed and will be re-transpiled on each change. Also your SASS file changes will be transpiled to css and injected to your browser directly.
+* `gulp serve` or just `gulp` to run your app in a new browser window. 
+App files are observed and will be re-transpiled on each change. 
+Also your SASS file changes will be transpiled to css and injected to your browser directly.
