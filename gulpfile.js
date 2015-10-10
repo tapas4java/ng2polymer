@@ -4,7 +4,7 @@ var browserSync = require('browser-sync').create();
 var PATHS = {
     src: 'src/**/*.ts',
     typings: 'node_modules/angular2/bundles/typings/angular2/angular2.d.ts',
-    html: '*.html',
+    html: '**/*.html',
     styles: "src/**/*.scss"
 };
 
