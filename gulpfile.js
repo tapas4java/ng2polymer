@@ -41,15 +41,15 @@ gulp.task('ts-watch', ['ts2js'], function() {
 gulp.task('serve', ['ts2js', 'sass'], function () {
     
     browserSync.init({
+        port: 8888,
+        logConnections: true,
+        logFileChanges: true,
+        logSnippet: false,
+        open: "local",
+        reloadOnRestart: true,
+        notify: true,
         server: {
-            baseDir: "./",
-            port: 8888,
-            logConnections: true,
-            logFileChanges: true,
-            logSnippet: false,
-            open: "local",
-            reloadOnRestart: true,
-            notify: true
+            baseDir: "./"
         }
     });
     
