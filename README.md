@@ -1,6 +1,6 @@
 # ng2polymer
 
-A minimal [Angular2](https://angular.io/) starter using [TypeScript](http://www.typescriptlang.org/) and [SystemJS loader](https://github.com/systemjs/systemjs) with [SASS](http://sass-lang.com)
+A minimal [Angular2](https://angular.io/) starter using [TypeScript](http://www.typescriptlang.org/) and [Polymer](https://www.polymer-project.org/1.0) with [SASS](http://sass-lang.com)
 
 ## Install
 
