@@ -1,10 +1,17 @@
 {
-  "name": "ng2start",
+  "name": "ng2polymer",
   "version": "0.0.1",
-  "description": "Angular2 Typescript Starter with live reload",
+  "description": "Angular2 Typescript Starter with Polymer",
+  "author": {
+    "name": "Tapas Jena",
+    "email": "tapas.jena@anitechcs.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tapas4java/ng2start.git"
+    "url": "https://github.com/tapas4java/ng2polymer.git"
+  },
+  "scripts": {
+    "postinstall" : "bower install"
   },
   "devDependencies": {
     "browser-sync": "^2.9.11",
@@ -14,7 +21,7 @@
     "gulp-typescript": "^2.8.0"
   },
   "dependencies": {
-    "angular2": "2.0.0-alpha.40",
+    "angular2": "2.0.0-alpha.44",
     "systemjs": "0.18.4"
   }
 }

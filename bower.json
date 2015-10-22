@@ -1,0 +1,18 @@
+{
+  "name": "ng2polymer",
+  "version": "0.0.1",
+  "description": "Angular2 Typescript Starter with Polymer",
+  "homepage": "https://github.com/tapas4java/ng2polymer.git",
+  "authors": [
+    "Tapas Jena <tapas.friends@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+    "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0"
+  }
+}

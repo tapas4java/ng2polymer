@@ -41,7 +41,7 @@ gulp.task('ts-watch', ['ts2js'], function() {
 gulp.task('serve', ['ts2js', 'sass'], function () {
     
     browserSync.init({
-        port: 8888,
+        port: 8080,
         logConnections: true,
         logFileChanges: true,
         logSnippet: false,

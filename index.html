@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <hello-app>Loading...</hello-app>
+    <app>Loading...</app>
 </body>
 
 <!-- ES6-related imports -->
@@ -16,13 +16,28 @@
     System.config({defaultJSExtensions: true});
 </script>
 
+<!-- Polymer -->
+<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+<script>
+    var Polymer = Polymer || {};
+    Polymer.dom = 'shadow';
+</script>
+<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/paper-input/paper-input.html">
+<link rel="import" href="bower_components/paper-card/paper-card.html">
+
+
 <!-- Angular2 imports -->
 <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
 
 <script>
     //bootstrap the Angular2 application
-    System.import('dist/hello').catch(
+    System.import('dist/app').catch(
         console.log.bind(console)
     );
 </script>
+
 </html>
